@@ -23,7 +23,7 @@ fs.readFileSync(process.argv[2]).toString().split('\n').forEach(function (number
       }
       number = squaresSum;
 
-      if (number == 1) {
+      if (number === 1) {
         console.log(1); 
         return; 
       }
