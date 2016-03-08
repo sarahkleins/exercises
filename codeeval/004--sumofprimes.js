@@ -13,7 +13,7 @@ function sumOfPrimes(limit) {
   }
 
   var sum = 0;
-  counter = 0;
+  var counter = 0;
   for (var i = 2; counter < limit ; i++) {
     if ( isPrime(i) ) {
       sum += i;
