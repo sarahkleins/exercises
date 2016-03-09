@@ -20,7 +20,7 @@ function iqTest(numbers) {
 
   var oddLoop = function(arr) {
     for (var i = 0; i < arr.length; i++) {
-      if (arr[i] % 2 == 0 ) {
+      if (arr[i] % 2 === 0 ) {
         return(i + 1);
       }
     }    
