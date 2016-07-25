@@ -1,7 +1,7 @@
-function findNeedle(array) {
-   for (var i = 0; i < array.length; i++) {
-    if (array[i] === 'needle') {
-      console.log("here is needle!");
+function findNeedle(haystack) {
+   for (var i = 0; i < haystack.length; i++) {
+    if (haystack[i] === 'needle') {
+      return "found the needle at position " +  i;
     }
-   }
+  }
 }
